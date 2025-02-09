@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Tbl_IP">
+      <EntityTypeMapping TypeName="Model.Tbl_IP">
+        <MappingFragment StoreEntitySet="Tbl_IP">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_MD5">
+      <EntityTypeMapping TypeName="Model.Tbl_MD5">
+        <MappingFragment StoreEntitySet="Tbl_MD5">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="MD5" ColumnName="MD5" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Services">
+      <EntityTypeMapping TypeName="Model.Tbl_Services">
+        <MappingFragment StoreEntitySet="Tbl_Services">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="service_name" ColumnName="service_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_SHA256">
+      <EntityTypeMapping TypeName="Model.Tbl_SHA256">
+        <MappingFragment StoreEntitySet="Tbl_SHA256">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SHA256" ColumnName="SHA256" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
