@@ -48,6 +48,21 @@ Register for API keys from **Hybrid Analysis**, **IBM X-Force Exchange**, and **
 2. Build the project.
 3. Run `Interface.sln`.
 
+### FastAPI Activation
+To activate the FastAPI service for this project, follow these steps:
+- Navigate to the FastAPI directory:
+```bash
+cd .../Windows_Threat_Hunting_Project/FastAPI/mlData
+```
+- Activate the virtual environment:
+```bash
+venv\Scripts\activate
+```
+- Run the FastAPI service:
+```bash
+python mlData.py
+```
+
 ## Usage
 
 ### Quick Scan
