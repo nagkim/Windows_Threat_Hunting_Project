@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UOcQlK8a5W8=",
+  "dgSpecHash": "uVOjrzc6COs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nagkim\\Desktop\\Interface\\Interface\\Interface.csproj",
+  "projectFilePath": "/Users/nagkim/Documents/GitHub/Windows_Threat_Hunting_Project/Interface/Interface.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nagkim\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512"
+    "/Users/nagkim/.nuget/packages/entityframework/5.0.0/entityframework.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

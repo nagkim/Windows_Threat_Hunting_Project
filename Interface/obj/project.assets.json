@@ -19,82 +19,6 @@
           }
         }
       }
-    },
-    ".NETFramework,Version=v4.8/win": {
-      "EntityFramework/5.0.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.ComponentModel.DataAnnotations",
-          "System.Data.Entity"
-        ],
-        "compile": {
-          "lib/net45/EntityFramework.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.dll": {
-            "related": ".xml"
-          }
-        }
-      }
-    },
-    ".NETFramework,Version=v4.8/win-arm64": {
-      "EntityFramework/5.0.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.ComponentModel.DataAnnotations",
-          "System.Data.Entity"
-        ],
-        "compile": {
-          "lib/net45/EntityFramework.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.dll": {
-            "related": ".xml"
-          }
-        }
-      }
-    },
-    ".NETFramework,Version=v4.8/win-x64": {
-      "EntityFramework/5.0.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.ComponentModel.DataAnnotations",
-          "System.Data.Entity"
-        ],
-        "compile": {
-          "lib/net45/EntityFramework.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.dll": {
-            "related": ".xml"
-          }
-        }
-      }
-    },
-    ".NETFramework,Version=v4.8/win-x86": {
-      "EntityFramework/5.0.0": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "System.ComponentModel.DataAnnotations",
-          "System.Data.Entity"
-        ],
-        "compile": {
-          "lib/net45/EntityFramework.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/EntityFramework.dll": {
-            "related": ".xml"
-          }
-        }
-      }
     }
   },
   "libraries": {
@@ -134,33 +58,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nagkim\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/nagkim/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nagkim\\Desktop\\Interface\\Interface\\Interface.csproj",
+      "projectUniqueName": "/Users/nagkim/Documents/GitHub/Windows_Threat_Hunting_Project/Interface/Interface.csproj",
       "projectName": "Interface",
-      "projectPath": "C:\\Users\\nagkim\\Desktop\\Interface\\Interface\\Interface.csproj",
-      "packagesPath": "C:\\Users\\nagkim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nagkim\\Desktop\\Interface\\Interface\\obj\\",
+      "projectPath": "/Users/nagkim/Documents/GitHub/Windows_Threat_Hunting_Project/Interface/Interface.csproj",
+      "packagesPath": "/Users/nagkim/.nuget/packages/",
+      "outputPath": "/Users/nagkim/Documents/GitHub/Windows_Threat_Hunting_Project/Interface/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "UsingMicrosoftNETSdk": false,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\nagkim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/nagkim/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net48"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -182,20 +98,6 @@
             "version": "[5.0.0, )"
           }
         }
-      }
-    },
-    "runtimes": {
-      "win": {
-        "#import": []
-      },
-      "win-arm64": {
-        "#import": []
-      },
-      "win-x64": {
-        "#import": []
-      },
-      "win-x86": {
-        "#import": []
       }
     }
   }
